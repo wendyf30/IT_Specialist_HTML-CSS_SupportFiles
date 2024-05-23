@@ -1,1 +1,16 @@
-
+ul{
+list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#777;
+}
+li{
+float:left;
+}
+li a, .dropbtn{
+  display: linline-black;
+  color: pink;
+  text-align:center;
+  padding: 12px 14px;
+}
