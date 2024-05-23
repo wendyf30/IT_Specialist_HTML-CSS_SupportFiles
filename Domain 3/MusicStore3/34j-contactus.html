@@ -13,6 +13,7 @@
 
     <!-- insert form here-->
     <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
+         <fieldest><legend>Personal</legend>
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" />
         <br />
@@ -21,13 +22,28 @@
         <br />
         <label for="email">Email Address</label>
         <input type="email" name="email" id="email" />
+    </fieldest>
+        <fieldeat>
         <p>How did you hear about us?</p>
         <select name="found" id="found">
+            <optgroup label="Media">
             <option value="TV">TV</option>
             <option value="Web" selected>Radio</option>
             <option value="Other">Other</option>
+        </optgroup>
+            <option label="Web">
             <option value="Google">Google</option>
             <option value="Bing">Bing</option>
+        </optgroup>
+            <p>What instrument are you most interested in learning? </p>
+            <input list="instruments" name="instrument"/>
+            <datalist id="instruments">
+                <option value="guitar"></option>
+                <option value="piano"></option>
+                <option value="drums"></oprion>
+                <option value="ukulele"></option>
+            </datalist>
+            </fieldset>
         </select>
         <p>Add comments below</p>
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
@@ -35,6 +51,7 @@
         <input type="submit" name="submitform" value="Send it" /> <br />
         <output name="fn"></output>
     </form>
+</form>
 
 </body>
 </html>
