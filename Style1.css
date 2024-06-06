@@ -9,7 +9,7 @@ h1 {
   text-shadow: 2px 2px white; 
 } 
 a { 
-  font-family: "Gamja Flower", sans-serif; 
+  font-family: "Fantasy", sans-serif; 
   text-align: center; 
   text-decoration:none;
   font-size: 30px; 
@@ -139,8 +139,8 @@ img {
   color: #F6909D; 
 }
 .gloss a:hover {
-  background-color: #F4C2C2;
-  color: pink;
+  background-color: #3498DB;
+  color: blue;
 } 
 .hidden { display: none; 
         }
@@ -148,7 +148,7 @@ img {
 #hide { 
   display: block; 
   background-color: #F4C2C2; 
-  font-family: "Bonbon", sans-serif; 
+  font-family: "Fantasy", sans-serif; 
   box-shadow: 0px 8px 16px 0px #FFD7E9; 
   width: 50px;
   height: 50px;
