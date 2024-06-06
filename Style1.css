@@ -12,7 +12,7 @@ a {
   font-family: "Fantasy", sans-serif; 
   text-align: center; 
   text-decoration:none;
-  font-size: 30px; 
+  font-size: 20px; 
   font-color: #FFD1DC;
 } 
 
@@ -83,7 +83,7 @@ li { float: left;
 span { 
   background-color: #FC8EAC; 
   color: white; 
-  font-size: 29px; 
+  font-size: 20px; 
   border: 2px solid black; 
 } 
 .banner { 
@@ -103,7 +103,7 @@ img {
 } 
 .gloss, .workbook { 
   width: 80px; 
-  font-size: 18px; 
+  font-size: 10px; 
   text-decoration: none; 
   display: inline-block;
   text-align: center;
@@ -115,7 +115,7 @@ img {
   color: white;
   border: 2px dotted #FC8EAC; 
   width: 80px; 
-  font-size: 18px; 
+  font-size: 10px; 
   text-decoration: none;
 }
 .workbook { 
