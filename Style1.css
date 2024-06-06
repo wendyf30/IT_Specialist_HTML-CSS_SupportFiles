@@ -151,6 +151,7 @@ img {
   box-shadow: 0px 8px 16px 0px #FFD7E9; 
   width: 20px;
   height: 20px;
+  font-size:10;
 } 
 .button-container { 
   overflow: auto; /* Clears the float */ 
